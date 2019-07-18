@@ -1,3 +1,11 @@
+/**
+ * Slimmed version of PatientenService to demonstrate loading of data when checking in with RFID-Card
+ * Therefore, this service consumes events containing the userId from Kafka Streams Databus and
+ * opens patientData.html to show the related data.
+ *
+ * @type {createApplication}
+ */
+
 var express = require('express');
 var app = express();
 var open = require('open');
