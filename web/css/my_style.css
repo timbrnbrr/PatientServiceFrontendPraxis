@@ -1,0 +1,153 @@
+input[type=submit] {
+
+    display: block;
+    clear:both;
+    margin-top: 20px;
+}
+
+option {
+    background: white;
+    color: black;
+}
+
+#appointmentForm {
+    margin-top: 10px;
+}
+
+#timeSlotSelect {
+    width: 40%;
+}
+
+.swal2-popup {
+    margin-top: 20%;
+    font-size: 16px!important;
+}
+
+.form-agileits-overview {
+    width: 100% !important;
+}
+
+.panel-group {
+    margin-top: 30px;
+    width: auto;
+    float: none;
+}
+
+.badge {
+    float: none;
+    margin-left: 10px;
+}
+
+.list-group-item > .badge {
+    float: none;
+    margin-left: 10px;
+}
+
+.panel-default > .panel-heading {
+    background: #7683c8
+}
+
+.panel-default {
+    border-color: #7683c8 !important;
+    background: #7683c8 !important
+}
+
+.timings-w3ls {
+    background: white;
+}
+.timings-w3ls h5 {
+    color: black;
+}
+
+.timings-w3ls ul li span {
+    float: none;
+    display: inline-block;
+}
+
+.panel-collapse > .list-group {
+    border: 0px !important;
+}
+
+.form-agileits input[type="text"], select.form-control {
+    border-bottom: 2px solid #867e7e !important;
+}
+
+/*Smartphone*/
+@media (max-width: 667px) {
+    a + .badge {
+        float: none;
+        margin-top: 5px;
+        margin-left: 0px;
+        display: block;
+        width: 70px;
+    }
+
+    #patientDataForm span {
+        width: 100% !important;
+        float: none !important;
+    }
+}
+
+@media (max-width: 900px) {
+    #patientDataForm span {
+        width: 100% !important;
+        float: none !important;
+    }
+}
+
+.contact input[type="text"], .contact input[type="number"], .contact input[type="email"] {
+    margin-bottom: 8px!important;
+    margin-top: 4px;
+}
+
+#patientDataForm span {
+    width: 48%;
+    float: left;
+    margin-right: 12px!important;
+}
+
+.contact input[type="text"]:valid, .contact input[type="number"]:valid, .contact input[type="email"]:valid {
+    border-color: #999!important;
+}
+
+.contact input[type="text"]:hover, .contact input[type="text"]:focus,
+.contact input[type="number"]:hover, .contact input[type="text"]:focus,
+.contact input[type="email"]:hover, .contact input[type="email"]:focus{
+    border-color: #fe4630!important;
+}
+
+html {
+    touch-action: none!important
+}
+
+.scrollbar1 {
+    touch-action: none!important
+}
+
+#exportButton {
+    outline: none;
+    color: #fff;
+    padding: .8em 4em;
+    font-size: 1em;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: #3f51b5;
+    border: solid 1px #3f51b5;
+    -webkit-transition: 0.5s all;
+
+}
+
+#exportButton:hover {
+    background: #fe4630;
+    color: #fff;
+    border-color: #fe4630;
+    text-decoration: none !important;
+}
+
+#exportButton:focus {
+    text-decoration: none !important;
+}
+
+.contact input[type="submit"] {
+    display: inline;
+}
